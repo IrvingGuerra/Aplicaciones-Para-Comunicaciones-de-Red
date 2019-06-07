@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h1>Página principal Formulario</h1>
+
+<form action="#" method="get" class="">
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="nombre" >Ingresa tu nombre completo</label>
+								<br>
+                                    <input required="requiered" type="text" class="col-8 form-control" name="nombre " pattern="[A-Za-zäÄëËïÏöÖüÜáéíóúáéíóúÁÉÍÓÚÂÊÎÔÛâêîôûàèìòùÀÈÌÒÙñ\s]+" title="Ingresa solo caracteres" >
+								<br>
+								<br>
+							</div>
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="edad" >Introduce tu edad</label>
+								<br>
+									<input required="requiered" type="number" 	min="5" max="99"  class="col-8 form-control" name="edad" pattern=" title="Ingresa una edad de entre 5 a 99 "  >
+								<br>
+								<br>
+							</div>
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="correo" >Escribe tu correo electrónico</label>
+								<br>
+									<input required="requiered" type="email" class="col-8 form-control" name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Escribe una dirección de correo válida" >
+								<br>
+								<br>
+							</div>
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="telefono" >Escribe un telefono de contacto </label>
+								<br>
+									<input type="tel" class="col-8 form-control" name="telefono" >
+								<br>
+								<br>
+							</div>
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="contendio" >Selecciona una opcion que describa este formulario </label>
+								<br>
+								<select class="col-8 form-control custom-select" name= "contendio">
+									<option value = "1" selected>Buen contenido</option>
+									<option value="2">Puede mejorar</option>
+									<option value="3">Indiferente</option>
+									<option value="4">Mal contendio</option>
+								</select>
+								<br>
+								<br>
+							</div>
+							<div class="form-group row" >
+								<label class="col-4 col-form-label" for="comentario" >Escribe un comentario para mejorar el contenido.</label>
+								<br>
+								<textarea name="comentario" rows="5" cols="30"> </textarea>
+								<br>
+								<br>
+							</div>
+							<div class="form-group row justify-content-center" >
+								<button type="submit" class="btn btn-primary ">Enviar Datos</button>	
+								<button type="reset" class="btn btn-primary ">Limpiar Datos</button>
+							</div>
+
+						</form>
+</body>
+</html>
