@@ -1,4 +1,4 @@
-# Aplicaciones-Para-Comunicaciones-de-Red
+# Aplicaciones Para Comunicaciones de Red
 
 Todas las practicas, tareas y examenes de profesor Axel Ernesto Moreno Cervantes en la materia: Aplicaciones para comunicaciones de red, de la Escuela Superior de Computo
 
